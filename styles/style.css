@@ -104,7 +104,9 @@ ol {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
+  gap: 15px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .content__video-card-thumbnail {
@@ -112,10 +114,14 @@ ol {
   height: 103px;
   object-fit: cover;
   object-position: center;
+  flex-shrink: 0;
 }
 
 .content__video-card-description-container {
-  flex-grow: 1;
+  flex: 1 1 0%;
+  min-width: 0;
+  overflow: hidden;
+  width: 0;
 }
 
 .search-form__fieldset-title {
@@ -143,6 +149,8 @@ ol {
   display: block;
   text-decoration: none;
   color: #ffffff;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .content__video-card-title {
@@ -158,6 +166,7 @@ ol {
   white-space: nowrap;
   text-overflow: ellipsis;
   margin-bottom: 5px;
+  width: 100%;
 }
 
 .content__video-card-description {
