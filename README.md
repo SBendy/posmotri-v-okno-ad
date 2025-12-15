@@ -1,1 +1,1 @@
-https://github.com/SvetaKeypop/posmotri-v-okno-ad
+https://github.com/SBendy/posmotri-v-okno-ad
